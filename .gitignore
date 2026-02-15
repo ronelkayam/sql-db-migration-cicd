@@ -1,12 +1,24 @@
-# Python
+# Python - קבצי מערכת של פייתון שאין צורך לגבות
 __pycache__/
 *.py[cod]
+*$py.class
+.venv/
 venv/
+ENV/
+
+# Configuration - הסודות שלנו (הכי חשוב!)
 .env
+.env.local
 
-# IDE
-.vscode/
+# IDEs - הגדרות אישיות של עורך הקוד (כדי שלא ידרסו אחד לשני הגדרות)
 .idea/
+.vscode/
+*.swp
+*.swo
 
-# SQL Server logs
+# OS related - זבל של מערכות הפעלה
+.DS_Store
+Thumbs.db
+
+# SQL Server - קבצי לוג זמניים אם נוצרים
 *.log

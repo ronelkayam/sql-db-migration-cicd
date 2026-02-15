@@ -1,4 +1,5 @@
 🤖 Project Phoenix: Step 3 - Continuous Migration (CI/CD)
+
 "The DB that manages itself."
 📌 Overview
 Welcome to the final stage of the journey! In this project, we achieve Full Automation.
