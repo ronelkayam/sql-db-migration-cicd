@@ -3,10 +3,10 @@ import os
 
 # פרטי התחברות - בשלב ה-CI זה יעבור למשתני סביבה (Secrets)
 DB_CONFIG = {
-    'server': 'localhost',
-    'database': 'Manual Scripting',
-    'user': 'sa',
-    'password': 'Ron26190!'
+    'server':os.getenv('DB_SERVER'),
+    'database': os.getenv('DB_DATABASE'),
+    'user': os.getenv('DB_USER'),
+    'password': os.getenv('DB_PASSWORD'),
 }
 
 
